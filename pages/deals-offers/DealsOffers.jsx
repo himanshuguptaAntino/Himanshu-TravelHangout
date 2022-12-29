@@ -1,7 +1,7 @@
-const DealsandOffers = () => {
+const DealsOffers = () => {
   return (
     <div>Hello I am in a DealsandOffers Page</div>
   )
 }
 
-export default DealsandOffers
+export default DealsOffers;

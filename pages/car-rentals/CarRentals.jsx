@@ -1,7 +1,7 @@
 
 const CarRentals = () => {
   return (
-    <div>Hello I am in a CarRentals Page.</div>
+    <h1>Hello I am in a CarRentals Page.</h1>
   )
 }
 

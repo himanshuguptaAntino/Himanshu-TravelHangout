@@ -25,7 +25,7 @@ const login = "/login"; // Define your login route address.
  * @returns {{auth: null}}
  */
 const checkUserAuthentication = () => {
-  return { auth: false }; // change null to { auth: true } for test it.
+  return { auth: true }; // change null to { auth: true } for test it.
 };
 export default (WithAuth) => {
   const hocComponent = ({ ...props }) => <WithAuth {...props} />;
